@@ -1,6 +1,8 @@
 {
   "private": true,
   "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write .",
     "build": "next build",
     "dev": "next dev --turbopack",
     "start": "next start"
@@ -26,7 +28,14 @@
     "@types/bcrypt": "^5.0.2",
     "@types/node": "22.10.7",
     "@types/react": "19.0.7",
-    "@types/react-dom": "19.0.3"
+    "@types/react-dom": "19.0.3",
+    "@typescript-eslint/eslint-plugin": "^8.44.1",
+    "@typescript-eslint/parser": "^8.44.1",
+    "eslint": "^9.36.0",
+    "eslint-config-next": "^15.5.4",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-unused-imports": "^4.2.0",
+    "prettier": "^3.6.2"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
