@@ -145,6 +145,9 @@ This project uses NextAuth.js v5 for authentication:
 - Login/logout functionality
 - User session persistence
 
+Email: user@nextmail.com
+Password: 123456
+
 ## 📚 Learning Resources
 
 This project is based on the [Next.js Learn Course](https://nextjs.org/learn). For detailed tutorials and explanations:
